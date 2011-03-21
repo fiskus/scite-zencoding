@@ -1,0 +1,11 @@
+Abbreviations for text editor SciTE via Zen Coding
+
+HOW-TO
+There two abbreviations files. One works with HTML only, other - with CSS only.
+Put their into your home directory, then open .SciTEUser.properties and put these two lines:
+
+abbreviations.*.css=$(SciteUserHome)/css.abbrev.properties
+abbreviations.*.html=$(SciteUserHome)/html.abbrev.properties
+
+You can find .SciTEUser.properites at menu (SciTE menu -> Options -> open User Options File), or create it at home directory.
+
